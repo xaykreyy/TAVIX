@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "tavix",
+  "version": "${version}",
+  "name": "TAVIX",
+  "description": "TAVIX client-side interface and configurable utility modules.",
+  "authors": ["TAVIX"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["gg.tavix.TavixClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
